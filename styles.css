@@ -4,12 +4,12 @@ body {
   background: linear-gradient(
     89deg,
     rgba(203, 206, 189, 1) 0%,
-    rgba(229, 229, 221, 1) 100%
+    rgb(159, 159, 157) 50%
   );
 }
 
 .container {
-  border: solid red 1px;
+  /* border: solid red 1px; */
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -19,7 +19,7 @@ body {
 }
 
 .image-container {
-  border: solid red 1px;
+  /* border: solid red 1px; */
   width: 350px;
   justify-content: center;
   align-items: center;
@@ -31,8 +31,7 @@ body {
 }
 
 img {
-  height: 300px;
-  padding-left: 50px;
+  height: 400px;
 }
 
 h1 {
